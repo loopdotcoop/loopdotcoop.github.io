@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
+
+body {
+  background-color: #000;
+}
+
+body, h1, h2, h3, h4, h5, h6, button, .button {
+  font-family: 'Podkova', sans-serif;
+}
+
+#ldc-nav-top {
+  margin-top: 10px;
+}
+
+#ldc-logo-main {
+  width: 1100px;
+  height: auto;
+}
