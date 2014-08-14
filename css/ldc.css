@@ -9,6 +9,7 @@ body#ldc-page-about {
 
 h1, h2, h3, h4, h5, h6, button, .button {
   font-family: 'Podkova', sans-serif;
+  font-weight: bold;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #2285a2;
@@ -20,10 +21,10 @@ p {
 }
 
 #ldc-nav-top {
-  margin-top: 10px;
+  padding-top: 10px;
 }
 
-#ldc-logo-main, #ldc-logo-footer {
+.large-12.columns >img, .large-12.columns >a >img {
   width: 1100px;
   height: auto;
 }
