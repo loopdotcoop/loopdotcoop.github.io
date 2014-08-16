@@ -29,5 +29,5 @@ Changelog
 +                   homepage has ‘Present: The Looptopian Launch;
 +                   JS alert() on ‘Sneak Peek’ button
 + 0.0.1-1           create ‘package.json’, ‘.gitignore’, ‘LICENSE’ and ‘README.md’, based on oe-flow defaults; 
-
++ 0.1.0-rc.1        add Facebook and Twitter links; 
 
