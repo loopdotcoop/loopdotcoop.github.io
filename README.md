@@ -35,4 +35,5 @@ Changelog
 + 0.1.1-2           enable link to http://looptopia.loop.coop/; 
 + 0.1.2-rc.1        start using ‘less/ldc.less’; add footer, based on looptopia@0.1.1-2; 
 + 0.1.2             release; 
++ 0.1.3-fix.1       hotfix background on http://loop.coop/about.html; Change ‘sneak peek’ to ‘sneak preview’; Podkova on links; 
 
