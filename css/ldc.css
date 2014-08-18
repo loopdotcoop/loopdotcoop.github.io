@@ -34,10 +34,19 @@
   content: "\f006";
 }
 /* Color */
-html,
 body {
   background-color: #000;
   color: #ccc;
+}
+body .ldc-copyright span {
+  color: #444;
+}
+body#ldc-page-about {
+  background-color: #fff;
+  color: #555;
+}
+body#ldc-page-about .ldc-copyright span {
+  color: #999;
 }
 /* Typography */
 body {
@@ -50,7 +59,9 @@ h4,
 h5,
 h6,
 button,
-.button {
+.button,
+#header,
+#footer {
   font-family: 'Podkova', sans-serif;
   font-weight: bold;
   line-height: 1.1;
@@ -71,12 +82,13 @@ p {
 }
 /* Utility */
 .ldc-raise-icon {
-  vertical-align: top;
+  vertical-align: .7rem;
 }
 /* Header and Footer */
 #header,
 #footer {
   padding-top: 10px;
+  font-size: 1.2rem;
 }
 #header .ldc-social,
 #footer .ldc-social,
@@ -92,15 +104,21 @@ p {
 #footer .ldc-menu {
   padding-bottom: 1rem;
 }
+#header .ldc-legal,
+#footer .ldc-legal {
+  padding-bottom: .5rem;
+}
 #header .ldc-social a,
-#footer .ldc-social a,
-#header .ldc-legal a,
-#footer .ldc-legal a {
-  padding-right: .5rem;
+#footer .ldc-social a {
+  padding: 0 .25rem;
 }
 #header .ldc-menu a,
-#footer .ldc-menu a {
-  padding-left: 1rem;
+#footer .ldc-menu a,
+#header .ldc-legal a,
+#footer .ldc-legal a,
+#header .ldc-copyright span,
+#footer .ldc-copyright span {
+  padding: 0 .5rem;
 }
 @media only screen and (min-width: 40.063em) {
   #header,
@@ -112,6 +130,7 @@ p {
   #header .ldc-legal,
   #footer .ldc-legal {
     text-align: left;
+    padding-bottom: 0;
   }
   #header .ldc-menu,
   #footer .ldc-menu,
