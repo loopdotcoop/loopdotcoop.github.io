@@ -1,16 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
 /* [Foundation icons](http://zurb.com/playground/foundation-icons) */
-
 @font-face {
   font-family: 'SocialFoundicons';
   src: url('../fonts/social_foundicons.eot');
-  src: url('../fonts/social_foundicons.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/social_foundicons.woff') format('woff'),
-       url('../fonts/social_foundicons.ttf') format('truetype'),
-       url('../fonts/social_foundicons.svg#socialFoundicons') format('svg');
+  src: url('../fonts/social_foundicons.eot?#iefix') format('embedded-opentype'), url('../fonts/social_foundicons.woff') format('woff'), url('../fonts/social_foundicons.ttf') format('truetype'), url('../fonts/social_foundicons.svg#socialFoundicons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
- 
 [class*="foundicon-"] {
   display: inline;
   width: auto;
@@ -21,7 +17,6 @@
   background-position: 0 0;
   background-repeat: repeat;
 }
- 
 [class*="foundicon-"]:before {
   font-family: "SocialFoundicons";
   font-weight: normal;
@@ -29,7 +24,6 @@
   font-size: 2rem;
   text-decoration: inherit;
 }
-
 .foundicon-facebook:before {
   content: "\f003";
 }
@@ -39,91 +33,123 @@
 .foundicon-github:before {
   content: "\f006";
 }
-
-
-
-
+/* Color */
+html,
+body {
+  background-color: #000;
+  color: #ccc;
+}
 /* Typography */
-
-@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
-
 body {
   font-family: verdana, sans-serif;
 }
-body#ldc-page-home {
-  background-color: #000;
-}
-body#ldc-page-about {
-  background-color: #fff;
-}
-
-h1, h2, h3, h4, h5, h6, button, .button {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+.button {
   font-family: 'Podkova', sans-serif;
   font-weight: bold;
+  line-height: 1.1;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #2285a2;
   text-align: center;
 }
 p {
   font-size: 1.1rem;
   line-height: 1.4;
+  text-align: center;
 }
-
-
-
-
 /* Utility */
-
 .ldc-raise-icon {
   vertical-align: top;
 }
-
-
-
-
-/* Navigation */
-
-#ldc-nav-top {
+/* Header and Footer */
+#header,
+#footer {
   padding-top: 10px;
 }
-#ldc-nav-top .ldc-social,
-#ldc-nav-top .ldc-menu {
-  text-align: center; /* responsive */
+#header .ldc-social,
+#footer .ldc-social,
+#header .ldc-menu,
+#footer .ldc-menu,
+#header .ldc-legal,
+#footer .ldc-legal,
+#header .ldc-copyright,
+#footer .ldc-copyright {
+  text-align: center;
 }
-#ldc-nav-top .ldc-menu {
-  padding-bottom: 1rem; /* responsive */
+#header .ldc-menu,
+#footer .ldc-menu {
+  padding-bottom: 1rem;
 }
-#ldc-nav-top .ldc-social a {
+#header .ldc-social a,
+#footer .ldc-social a,
+#header .ldc-legal a,
+#footer .ldc-legal a {
   padding-right: .5rem;
 }
-#ldc-nav-top .ldc-menu a {
+#header .ldc-menu a,
+#footer .ldc-menu a {
   padding-left: 1rem;
 }
 @media only screen and (min-width: 40.063em) {
-  #ldc-nav-top {
+  #header,
+  #footer {
     padding-bottom: 10px;
   }
-  #ldc-nav-top .ldc-social {
-    text-align: left; /* responsive */
+  #header .ldc-social,
+  #footer .ldc-social,
+  #header .ldc-legal,
+  #footer .ldc-legal {
+    text-align: left;
   }
-  #ldc-nav-top .ldc-menu {
-    text-align: right; /* responsive */
-    padding-bottom: 0; /* responsive */
+  #header .ldc-menu,
+  #footer .ldc-menu,
+  #header .ldc-copyright,
+  #footer .ldc-copyright {
+    text-align: right;
+    padding-bottom: 0;
   }
 }
-
-
-
-
-
-
-.large-12.columns >img, .large-12.columns >a >img {
+.large-12.columns > img,
+.large-12.columns > a > img {
   width: 1100px;
   height: auto;
 }
-
-.footer {
-  text-align: center;
+/* Sticky Footer, based on http://jsbin.com/qucet/2 and http://www.cssstickyfooter.com/ */
+html,
+body {
+  height: 100%;
 }
-
+#wrap {
+  min-height: 100%;
+}
+#main {
+  overflow: auto;
+  padding-bottom: 4rem;
+}
+#footer {
+  position: relative;
+  margin-top: -4rem;
+  height: 4rem;
+  clear: both;
+}
+@media only screen and (min-width: 40.063em) {
+  #main {
+    padding-bottom: 2.5rem;
+  }
+  #footer {
+    margin-top: -2.5rem;
+    height: 2.5rem;
+  }
+}
