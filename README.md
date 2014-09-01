@@ -37,4 +37,5 @@ Changelog
 + 0.1.2             release; 
 + 0.1.4-fix.1       hotfix background on http://loop.coop/about.html; Change ‘sneak peek’ to ‘sneak preview’; Podkova on links; 
 + 0.1.4             hotfix release; 
++ 0.2.0-rc.1        has ‘empty-space.html’ for September 1st blank space release; 
 
