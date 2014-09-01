@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Podkova:400,700);
+@import url(http://fonts.googleapis.com/css?family=Podkova:400);
 /* [Foundation icons](http://zurb.com/playground/foundation-icons) */
 @font-face {
   font-family: 'SocialFoundicons';
@@ -65,7 +65,6 @@ button,
 #header,
 #footer {
   font-family: 'Podkova', sans-serif;
-  font-weight: bold;
   line-height: 1.1;
 }
 h1,
