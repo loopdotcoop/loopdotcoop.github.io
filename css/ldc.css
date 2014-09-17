@@ -84,6 +84,15 @@ p {
 body#ldc-page-legal p {
   text-align: left;
 }
+a {
+  transition: color .5s;
+}
+a:hover {
+  color: #d0d;
+}
+a:hover.button {
+  background-color: #d0d;
+}
 /* Utility */
 .ldc-raise-icon {
   vertical-align: .7rem;
@@ -174,5 +183,29 @@ body {
   #footer {
     margin-top: -2.5rem;
     height: 2.5rem;
+  }
+}
+.ldc-homepage-vimeo {
+  padding-bottom: 10px;
+}
+.ldc-homepage-vimeo > div {
+  padding: 0;
+  text-align: center;
+}
+.ldc-homepage-vimeo > div > iframe {
+  display: inline-block;
+  width: 320px;
+  height: 170px;
+}
+@media only screen and (min-width: 40.063em) {
+  .ldc-homepage-vimeo > div > iframe {
+    width: 640px;
+    height: 360px;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  .ldc-homepage-vimeo > div > iframe {
+    width: 1000px;
+    height: 562px;
   }
 }

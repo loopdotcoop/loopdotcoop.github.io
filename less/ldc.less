@@ -89,7 +89,15 @@ body#ldc-page-legal {
     }
 }
 
-
+a {
+    transition: color .5s;
+    &:hover {
+        color: #d0d;
+        &.button {
+            background-color: #d0d;
+        }
+    }
+}
 
 
 /* Utility */
@@ -184,6 +192,40 @@ html, body {
         margin-top: -@footer-height; // responsive - negative value of footer height
         height: @footer-height; // responsive
     } 
+}
+
+
+.ldc-homepage-vimeo {
+    padding-bottom: 10px;
+    >div {
+        padding: 0;
+        text-align: center;
+        >iframe {
+            display: inline-block;
+            width:  320px; // responsive
+            height: 170px; // responsive
+        }
+    }
+}
+@media only screen and (min-width: 40.063em) {
+    .ldc-homepage-vimeo {
+        >div {
+            >iframe {
+                width:  640px; // responsive
+                height: 360px; // responsive
+            }
+        }
+    }
+}
+@media only screen and (min-width: 64.063em) {
+    .ldc-homepage-vimeo {
+        >div {
+            >iframe {
+                width: 1000px; // responsive
+                height: 562px; // responsive
+            }
+        }
+    }
 }
 
 
