@@ -41,4 +41,5 @@ Changelog
 + 0.2.0-rc.2        legal pages; style and header tweaks; 
 + 0.2.0             September 1st release with legal content; 
 + 0.3.1-1           September 17th release with Looptopian Launch vimeo; 
++ 0.4.0             September 17th release with Looptopian Launch vimeo; 
 
