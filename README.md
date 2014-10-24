@@ -44,4 +44,5 @@ Changelog
 + 0.4.0             September 17th release with Looptopian Launch vimeo; 
 + 0.4.2             September 29th after Looptopian Launch event; 
 + 0.4.4             Remove references to Sneak Preview and Looptopian Launch from `about.html`; 
++ 0.4.6             Add vimeo behind logo; 
 
