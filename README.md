@@ -45,4 +45,5 @@ Changelog
 + 0.4.2             September 29th after Looptopian Launch event; 
 + 0.4.4             Remove references to Sneak Preview and Looptopian Launch from `about.html`; 
 + 0.4.6             Add vimeo behind logo; 
++ 0.4.8             Abi Xmas, at ‘fun/abi-xmas.html’; 
 

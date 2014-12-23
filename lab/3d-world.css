@@ -1,0 +1,48 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+a.button {
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  margin: 0 0 5px 5px;
+  vertical-align: bottom;
+  background-color: #3399cc;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+a.button:hover {
+  background-color: #00ccff;
+}
+
+
+form {
+  position: absolute;
+  right: 0;
+  width: 20%;
+  top: 0;
+  bottom: 0;
+  overflow: scroll;
+  padding: 1px 10px 15px 10px;
+  background-color: silver;
+  border-radius: 3px;
+}
+fieldset {
+  padding: 10px 18px 10px 10px;
+}
+label {
+  display: block;
+  padding: 5px 0;
+}
+input {
+  display: block;
+  width: 100%;
+}
+
+canvas {
+}
